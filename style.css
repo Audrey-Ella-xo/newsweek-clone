@@ -1,3 +1,51 @@
-.header {
+header {
     background: #f72210;
+}
+
+.card {
+    border: none;
+}
+
+h4 {
+    font-size: 16px;;
+}
+
+.culture h4 {
+    margin: 0 -15px;
+    background: lightgray;
+    padding-left: 15px;
+}
+
+.culture .card {
+    background: lightgray;
+    padding: 15px;
+}
+
+.culture .card h5, p {
+    font-size: 14px;
+}
+
+.culture .card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+} 
+
+.opinion-list li {
+    border-bottom: 1px solid lightgray;
+}
+
+.opinion-list li:last-of-type {
+    border-bottom: none;
+}
+
+.latest-list img {
+    width: 40%;
+    /* height: 102px; */
+}
+
+.more-stories > div > div, .latest-list li {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid lightgray;
 }
