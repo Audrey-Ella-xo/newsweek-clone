@@ -49,3 +49,18 @@ h4 {
     padding-top: 10px;
     border-top: 1px solid lightgray;
 }
+
+.in h4 {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.in > div > div:last-child > div img {
+    height: 300px;
+}
+
+.in > div:last-child {
+    margin: 0 1px;
+}
+
