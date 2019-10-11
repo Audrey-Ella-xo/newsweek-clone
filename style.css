@@ -2,6 +2,15 @@ header {
     background: #f72210;
 }
 
+a {
+    color: black;
+} 
+
+a:hover {
+    text-decoration: underline #f72210;
+    color:  black;
+}
+
 .card {
     border: none;
 }
@@ -39,11 +48,11 @@ h4 {
     border-bottom: none;
 }
 
-.latest-list img, .list img {
+.more-list img, .latest-list img, .list img {
     width: 40%;
 }
 
-.more-stories > div > div, .latest-list li {
+.more-list li, .latest-list li {
     margin-top: 10px;
     padding-top: 10px;
     border-top: 1px solid lightgray;
@@ -57,6 +66,14 @@ h4 {
 
 .in > div:last-child {
     margin: 0 1px;
+}
+
+.nletter {
+    padding-top: 30px;
+}
+
+.nletter .card {
+    background-color: rgb(231, 225, 225);
 }
 
 .little {
