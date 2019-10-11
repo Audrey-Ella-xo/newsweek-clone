@@ -13,7 +13,7 @@
   </head>
   <body>
     <div class="container-fluid">
-        <header class="blog-header py-3">
+        <header class="blog-header py-3 sticky-top">
             <div class="header row flex-nowrap justify-content-between align-items-center">
                 <div class="col-4 pt-1">
                 <p class="text-muted" href="#">Wed, Oct 09, 2019</p>
@@ -27,33 +27,41 @@
                 </div>
             </div>   
         </header>
-        <div class="nav-scroller py-1 mb-2">
-            <nav class="nav d-flex justify-content-between">
-                <a class="p-2" href="#">U.S.</a>
-                <a class="p-2 text-muted" href="#">|</a>
-                <a class="p-2" href="#">World</a>
-                <a class="p-2 text-muted" href="#">|</a>
-                <a class="p-2" href="#">Business</a>
-                <a class="p-2 text-muted" href="#">|</a>
-                <a class="p-2" href="#">Tech & Science</a>
-                <a class="p-2 text-muted" href="#">|</a>
-                <a class="p-2" href="#">Culture</a>
-                <a class="p-2 text-muted" href="#">|</a>
-                <a class="p-2" href="#">Newsgeek</a>
-                <a class="p-2 text-muted" href="#">|</a>
-                <a class="p-2" href="#">Sports</a>
-                <a class="p-2 text-muted" href="#">|</a>
-                <a class="p-2" href="#">Health</a>
-                <a class="p-2 text-muted" href="#">|</a>
-                <a class="p-2" href="#">Opinion</a>
-                <a class="p-2 text-muted" href="#">|</a>
-                <a class="p-2" href="#">Vantage</a>
-                <p class="p-2 text-muted" href="#">
-                    Search
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24" focusable="false"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
-                </p>
-            </nav>
-        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navitemscollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navitemscollapse">
+                <div class="navbar-nav mr-auto w-100 justify-content-between">
+                        <a class="p-2 nav-item nav-link" href="#">U.S.</a>
+                        <a class="p-2 text-muted" href="#">|</a>
+                        <a class="p-2 nav-item nav-link" href="#">World</a>
+                        <a class="p-2 text-muted" href="#">|</a>
+                        <a class="p-2 nav-item nav-link" href="#">Business</a>
+                        <a class="p-2 text-muted" href="#">|</a>
+                        <a class="p-2 nav-item nav-link" href="#">Tech & Science</a>
+                        <a class="p-2 text-muted" href="#">|</a>
+                        <a class="p-2 nav-item nav-link" href="#">Culture</a>
+                        <a class="p-2 text-muted" href="#">|</a>
+                        <a class="p-2 nav-item nav-link" href="#">Newsgeek</a>
+                        <a class="p-2 text-muted" href="#">|</a>
+                        <a class="p-2 nav-item nav-link" href="#">Sports</a>
+                        <a class="p-2 text-muted" href="#">|</a>
+                        <a class="p-2 nav-item nav-link" href="#">Health</a>
+                        <a class="p-2 text-muted" href="#">|</a>
+                        <a class="p-2 nav-item nav-link" href="#">Opinion</a>
+                        <a class="p-2 text-muted" href="#">|</a>
+                        <a class="p-2 nav-item nav-link" href="#">Vantage</a>
+                        <p class="p-2 text-muted" href="#">
+                            Search
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24" focusable="false"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
+                        </p>
+                </div>
+            </div>
+        </nav>
+
         <main>
             <div class="main row">
                 <aside class="featured container col-md-6 col-lg-3">
@@ -92,50 +100,12 @@
                         </div>
                     </div>
 
-                    <div class="culture container-fluid">
-                        <h4 class="text-muted">CULTURE AND TRAVEL</h6>
-                        <div class="culture row">
-                            <div class="col-md-6 col-lg-6 card rounded-0 h-100">
-                                <img src="./images/oil-img.jpg" class="card-img-top rounded-0" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title"><a href="">20 Firms Linked to 35 Percent of All Greenhouse Gas Emissions Since 1965</a></h5>
-                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores eius deserunt porro laboriosam repudiandae deleniti fugiat ipsam facilis quaerat libero.</p>
-                                    <a href="#" class="btn btn-primary">Travel</a>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-6 card rounded-0 h-100">
-                                <img src="./images/oil-img.jpg" class="card-img-top rounded-0" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title"><a href="">20 Firms Linked to 35 Percent of All Greenhouse Gas Emissions Since 1965</a></h5>
-                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores eius deserunt porro laboriosam repudiandae deleniti fugiat ipsam facilis quaerat libero.</p>
-                                    <a href="#" class="btn btn-primary">Street Art</a>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-6 card rounded-0 h-100">
-                                <img src="./images/oil-img.jpg" class="card-img-top rounded-0" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title"><a href="">20 Firms Linked to 35 Percent of All Greenhouse Gas Emissions Since 1965</a></h5>
-                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores eius deserunt porro laboriosam repudiandae deleniti fugiat ipsam facilis quaerat libero.</p>
-                                    <a href="#" class="btn btn-primary">Pakistan</a>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-6 card rounded-0 h-100">
-                                <img src="./images/oil-img.jpg" class="card-img-top rounded-0" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title"><a href="">20 Firms Linked to 35 Percent of All Greenhouse Gas Emissions Since 1965</a></h5>
-                                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores eius deserunt porro laboriosam repudiandae deleniti fugiat ipsam facilis quaerat libero.</p>
-                                    <a href="#" class="btn btn-primary">Business Travel</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                     <div class="more-stories">
                         <h4 class="text-muted">MORE STORIES</h6>
                         <div class="card mb-3 rounded-0">
                             <div class="row no-gutters">
                                 <div class="col-md-4">
-                                <img src="./images/oil-img.jpg" class="card-img-top rounded-0" alt="...">
+                                <img src="./images/oil-img.jpg" class="mr-3 img-fluid" alt="...">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
@@ -371,17 +341,151 @@
                     <h4 class="text-center"><img src="./images/little-icon.png" alt=""> EDITOR'S PICKS</h4 class="text-muted">
                 <div class="row">
                     <div class="col-md-3 editor-list card rounded-0">
-                        <img src="./images/milky-way.png" class="rounded-0 card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="position-relative">
+                            <img src="./images/milky-way.png" class="rounded-0 card-img-top" alt="...">
+                            <a href="" class="position-absolute little" alt="">News</a>
+                        </div>
+                        <div>
+                            <h5><a href="">Pence Refuses to Answer Questions About Alleged Ukraine Quid Pro Quo</a></h5>
+                            <p>The vice president repeatedly dodged questions on whether he knew that delayed military aid to Ukraine was linked to President Donald Trump's interest in corruption allegations against Vice President Joe Biden and his son.</p>
                             
                         </div>
+
+                        <div class="position-relative">
+                                <img src="./images/milky-way.png" class="rounded-0 card-img-top" alt="...">
+                                <a href="" class="position-absolute little" alt="">News</a>
+                            </div>
+                            <div>
+                                <h5><a href="">Pence Refuses to Answer Questions About Alleged Ukraine Quid Pro Quo</a></h5>
+                                <p>The vice president repeatedly dodged questions on whether he knew that delayed military aid to Ukraine was linked to President Donald Trump's interest in corruption allegations against Vice President Joe Biden and his son.</p>
+                                
+                            </div>
                     </div>
+
+                    <div class="col-md-3 editor-list card rounded-0">
+                            <div class="position-relative">
+                                <img src="./images/milky-way.png" class="rounded-0 card-img-top" alt="...">
+                                <a href="" class="position-absolute little" alt="">News</a>
+                            </div>
+                            <div>
+                                <h5><a href="">Pence Refuses to Answer Questions About Alleged Ukraine Quid Pro Quo</a></h5>
+                                <p>The vice president repeatedly dodged questions on whether he knew that delayed military aid to Ukraine was linked to President Donald Trump's interest in corruption allegations against Vice President Joe Biden and his son.</p>
+                                
+                            </div>
+    
+                            <div class="position-relative">
+                                    <img src="./images/milky-way.png" class="rounded-0 card-img-top" alt="...">
+                                    <a href="" class="position-absolute little" alt="">News</a>
+                                </div>
+                                <div>
+                                    <h5><a href="">Pence Refuses to Answer Questions About Alleged Ukraine Quid Pro Quo</a></h5>
+                                    <p>The vice president repeatedly dodged questions on whether he knew that delayed military aid to Ukraine was linked to President Donald Trump's interest in corruption allegations against Vice President Joe Biden and his son.</p>
+                                    
+                                </div>
+                        </div>
+
+                        <div class="col-md-3 editor-list card rounded-0">
+                                <div class="position-relative">
+                                    <img src="./images/milky-way.png" class="rounded-0 card-img-top" alt="...">
+                                    <a href="" class="position-absolute little" alt="">News</a>
+                                </div>
+                                <div>
+                                    <h5><a href="">Pence Refuses to Answer Questions About Alleged Ukraine Quid Pro Quo</a></h5>
+                                    <p>The vice president repeatedly dodged questions on whether he knew that delayed military aid to Ukraine was linked to President Donald Trump's interest in corruption allegations against Vice President Joe Biden and his son.</p>
+                                    
+                                </div>
+        
+                                <div class="position-relative">
+                                        <img src="./images/milky-way.png" class="rounded-0 card-img-top" alt="...">
+                                        <a href="" class="position-absolute little" alt="">News</a>
+                                    </div>
+                                    <div>
+                                        <h5><a href="">Pence Refuses to Answer Questions About Alleged Ukraine Quid Pro Quo</a></h5>
+                                        <p>The vice president repeatedly dodged questions on whether he knew that delayed military aid to Ukraine was linked to President Donald Trump's interest in corruption allegations against Vice President Joe Biden and his son.</p>
+                                        
+                                    </div>
+                            </div>
+
+                            <div class="col-md-3 editor-list card rounded-0">
+                                    <div class="position-relative">
+                                        <img src="./images/milky-way.png" class="rounded-0 card-img-top" alt="...">
+                                        <a href="" class="position-absolute little" alt="">News</a>
+                                    </div>
+                                    <div>
+                                        <h5><a href="">Pence Refuses to Answer Questions About Alleged Ukraine Quid Pro Quo</a></h5>
+                                        <p>The vice president repeatedly dodged questions on whether he knew that delayed military aid to Ukraine was linked to President Donald Trump's interest in corruption allegations against Vice President Joe Biden and his son.</p>
+                                        
+                                    </div>
+            
+                                    <div class="position-relative">
+                                            <img src="./images/milky-way.png" class="rounded-0 card-img-top" alt="...">
+                                            <a href="" class="position-absolute little" alt="">News</a>
+                                        </div>
+                                        <div>
+                                            <h5><a href="">Pence Refuses to Answer Questions About Alleged Ukraine Quid Pro Quo</a></h5>
+                                            <p>The vice president repeatedly dodged questions on whether he knew that delayed military aid to Ukraine was linked to President Donald Trump's interest in corruption allegations against Vice President Joe Biden and his son.</p>
+                                            
+                                        </div>
+                                </div>
                 </div>
             </div>
             <div class="slideshow">
-                    <h4 class="text-center"><img src="./images/little-icon.png" alt="">FEATURED SLIDESHOWS</h4 class="text-muted">
+                <h4 class="text-center"><img src="./images/little-icon.png" alt="">FEATURED SLIDESHOWS</h4 class="text-muted">
+                    <div class="row">
+                        <div class="col-md-4 slideshow card rounded-0">
+                            <div class="position-relative">
+                                <img src="./images/muir-pass.jpg" class="rounded-0 card-img-top" alt="...">
+                                <a href="" class="position-absolute little" alt="">7</a>
+                            </div>
+                            <div>
+                                <h5><a href="">The Great Alone: Walking the Pacific Crest Trail</a></h5>
+                            </div>
+
+                            <div class="position-relative">
+                                    <img src="./images/muir-pass.jpg" class="rounded-0 card-img-top" alt="...">
+                                    <a href="" class="position-absolute little" alt="">7</a>
+                                </div>
+                                <div>
+                                    <h5><a href="">The Great Alone: Walking the Pacific Crest Trail</a></h5>
+                                </div>
+                        </div>
+
+                        <div class="col-md-4 slideshow card rounded-0">
+                                <div class="position-relative">
+                                    <img src="./images/muir-pass.jpg" class="rounded-0 card-img-top" alt="...">
+                                    <a href="" class="position-absolute little" alt="">7</a>
+                                </div>
+                                <div>
+                                    <h5><a href="">The Great Alone: Walking the Pacific Crest Trail</a></h5>
+                                </div>
+    
+                                <div class="position-relative">
+                                        <img src="./images/muir-pass.jpg" class="rounded-0 card-img-top" alt="...">
+                                        <a href="" class="position-absolute little" alt="">7</a>
+                                    </div>
+                                    <div>
+                                        <h5><a href="">The Great Alone: Walking the Pacific Crest Trail</a></h5>
+                                    </div>
+                        </div>
+
+                        <div class="col-md-4 slideshow card rounded-0">
+                                <div class="position-relative">
+                                    <img src="./images/muir-pass.jpg" class="rounded-0 card-img-top" alt="...">
+                                    <a href="" class="position-absolute little" alt="">7</a>
+                                </div>
+                                <div>
+                                    <h5><a href="">The Great Alone: Walking the Pacific Crest Trail</a></h5>
+                                </div>
+    
+                                <div class="position-relative">
+                                        <img src="./images/muir-pass.jpg" class="rounded-0 card-img-top" alt="...">
+                                        <a href="" class="position-absolute little" alt="">7</a>
+                                    </div>
+                                    <div>
+                                        <h5><a href="">The Great Alone: Walking the Pacific Crest Trail</a></h5>
+                                    </div>
+                        </div>
+                    </div>
             </div>
             <div class="u.s"></div>
         </main>
