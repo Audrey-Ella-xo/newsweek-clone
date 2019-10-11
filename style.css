@@ -39,9 +39,8 @@ h4 {
     border-bottom: none;
 }
 
-.latest-list img {
+.latest-list img, .list img {
     width: 40%;
-    /* height: 102px; */
 }
 
 .more-stories > div > div, .latest-list li {
@@ -56,17 +55,12 @@ h4 {
     margin-bottom: 20px;
 }
 
-.in > div > div:last-child > div img {
-    height: 300px;
-}
-
 .in > div:last-child {
     margin: 0 1px;
 }
 
 .little {
     background: rgba(255, 255, 255, 0.74);
-    
     width: 70px;
     height: 52px;
     bottom: 0;
@@ -79,4 +73,27 @@ h4 {
 
 .slideshow .little {
     background: url(./images/icon-slideshows.png) 0 0/contain no-repeat;
+}
+
+.navi {
+    border-top: 1px solid rgb(216, 208, 208);
+    margin: 20px 0;
+    padding-top: 20px;
+}
+
+.subin .container, .subin .container .card {
+    background-color: lightgray;
+}
+
+.subin .container .card img {
+    margin: 20px;
+    padding-right: 40px;
+}
+
+.subin .container .card .card-body {
+    margin-top: 50px;
+}
+
+.subin > div > div:last-child .card {
+    border: 1px solid lightgray;
 }
