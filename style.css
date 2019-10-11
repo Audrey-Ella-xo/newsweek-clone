@@ -64,12 +64,34 @@ h4 {
     margin-bottom: 20px;
 }
 
+.in .burn {
+    height: 270px;
+}
+
+.in-caption > div {
+    margin-top: 20px;
+   width: 30%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.in-caption > div h6:first-of-type {
+    color: white;
+    background: #f72210;
+    padding: 5px;
+}
+
+.in-caption > div h6:last-of-type a {
+    color: #f72210;
+}
+
 .in > div:last-child {
     margin: 0 1px;
 }
 
 .nletter {
-    padding-top: 30px;
+    padding: 30px;
 }
 
 .nletter .card {
@@ -78,8 +100,7 @@ h4 {
 
 .little {
     background: rgba(255, 255, 255, 0.74);
-    width: 70px;
-    height: 52px;
+    padding: 0  10px;
     bottom: 0;
     left: 0;
     line-height: 58px;
@@ -90,6 +111,8 @@ h4 {
 
 .slideshow .little {
     background: url(./images/icon-slideshows.png) 0 0/contain no-repeat;
+    width: 70px;
+    height: 52px;
 }
 
 .navi {
@@ -114,3 +137,4 @@ h4 {
 .subin > div > div:last-child .card {
     border: 1px solid lightgray;
 }
+

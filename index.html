@@ -9,6 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>NewsWeek Clone</title>
   </head>
   <body>
@@ -63,7 +64,7 @@
         </nav>
 
         <main>
-            <div class="main row">
+            <div class="main row wrapper">
                 <aside class="featured container col-md-6 col-lg-3">
                     <h4 class="text-muted">FEATURED STORIES</h4>
                     <div class="position-relative">
@@ -109,12 +110,14 @@
                 </aside>
                 <article class="top container col-md-6 col-lg-6">
                     <h4 class="text-muted">TOP STORY</h4>
-                    <div class="card rounded-0">
-                        <img src="./images/oil-img.jpg" class="card-img-top rounded-0" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title"><a href="">20 Firms Linked to 35 Percent of All Greenhouse Gas Emissions Since 1965</a></h5>
-                            <p class="card-text">""In my view, fossil fuel firms were morally and legally obliged to warn that continued use of carbon fuels threatens our health and welfare, and to accelerate the conversation on how to reduce the threat," the co-director of the Climate Accountability Institute wrote.</p>
-                        </div>
+                    <div class="position-relative">
+                        <img src="./images/oil-img.jpg" class="rounded-0 card-img-top" alt="...">
+                        <a href="" class="position-absolute little" alt="">POLITICS</a>
+                    </div>
+                    <div>
+                        <h5><a href="">20 Firms Linked to 35 Percent of All Greenhouse Gas Emissions Since 1965</a></h5>
+                        <p>""In my view, fossil fuel firms were morally and legally obliged to warn that continued use of carbon fuels threatens our health and welfare, and to accelerate the conversation on how to reduce the threat," the co-director of the Climate Accountability Institute wrote.</p>
+                        
                     </div>
 
                     <div class="more-stories">
@@ -256,7 +259,7 @@
                         </div>
                     </div>
 
-                    <div class="container nletter">
+                    <div class="nletter">
                         <div class="card rounded-0">
                             <div class="card-body">
                               <h4 class="card-title"><img src="./images/little-icon.png" alt="">  <span>SIGN UP FOR OUR NEWSLETTERS</span></h4>
@@ -268,13 +271,17 @@
                 </aside>
             </div>
 
-            <div class="in">
+            <div class="in wrapper">
                 <div class="row">
                     <div class="col-sm-12 col-md-3">
                         <div class="card">
-                            <img src="./images/trump.jpg" class="card-img-top" alt="...">
+                                <div class="position-relative">
+                                        <img src="./images/trump.jpg" class="card-img-top" alt="...">
+                                        <a href="" class="position-absolute little" alt="">OCTOBER 18 ISSUE</a>
+                                    </div>
+                            
                             <div class="card-footer">
-                                <small class="text-muted">Last updated 3 mins ago</small>
+                                <p class="text-muted"><a href=""> SEE ALL FEATURES > </a></p>
                             </div>
                         </div>
                     </div>
@@ -283,24 +290,33 @@
                         <div class="row">
                             
                             <div class="col-md">
-                                    <img src="./images/burn-rage.jpg" class="img-fluid" alt="Responsive image">
-                                <div>
-                                    <p>Cover <a href="">U.S</a></p>
-                                    <h6>'Gleefully Defiant' Trump Spoils for Fight, But Will His Playbook Fail Him?</h6>
+                                    <img src="./images/burn-rage.jpg" class="img-fluid burn" alt="Responsive image">
+                                <div class="in-caption">
+                                    <div>
+                                    <h6>Cover</h6>
+                                    <h6><a href="">U.S</a></h6>
+                                    </div>  
+                                    <h5>'Gleefully Defiant' Trump Spoils for Fight, But Will His Playbook Fail Him?</h5>
                                 </div>
                             </div>
                             <div class="col-md">
-                                    <img src="./images/burn-rage.jpg" class="img-fluid" alt="Responsive image">
-                                <div>
-                                    <p>Cover <a href="">U.S</a></p>
-                                    <h6>'Gleefully Defiant' Trump Spoils for Fight, But Will His Playbook Fail Him?</h6>
+                                    <img src="./images/burn-rage.jpg" class="img-fluid burn" alt="Responsive image">
+                                <div class="in-caption">
+                                    <div>
+                                    <h6>Cover</h6>
+                                    <h6><a href="">U.S</a></h6>
+                                    </div>  
+                                    <h5>'Gleefully Defiant' Trump Spoils for Fight, But Will His Playbook Fail Him?</h5>
                                 </div>
                             </div>
                             <div class="col-md">
-                                    <img src="./images/burn-rage.jpg" class="img-fluid" alt="Responsive image">
-                                <div>
-                                    <p>Cover <a href="">U.S</a></p>
-                                    <h6>'Gleefully Defiant' Trump Spoils for Fight, But Will His Playbook Fail Him?</h6>
+                                    <img src="./images/burn-rage.jpg" class="img-fluid burn" alt="Responsive image">
+                                <div class="in-caption">
+                                    <div>
+                                    <h6>Cover</h6>
+                                    <h6><a href="">U.S</a></h6>
+                                    </div>  
+                                    <h5>'Gleefully Defiant' Trump Spoils for Fight, But Will His Playbook Fail Him?</h5>
                                 </div>
                             </div>
                         </div>
@@ -308,40 +324,51 @@
                 </div>
                 <div class="row">
                         <div class="row">
-                            
-                                <div class="card col-md">
-                                        <img src="./images/burn-rage.jpg" class="img-fluid" alt="Responsive image">
-                                    <div>
-                                        <p>Cover <a href="">U.S</a></p>
-                                        <h6>'Gleefully Defiant' Trump Spoils for Fight, But Will His Playbook Fail Him?</h6>
+                                <div class="col-md">
+                                        <img src="./images/burn-rage.jpg" class="img-fluid burn" alt="Responsive image">
+                                    <div class="in-caption">
+                                        <div>
+                                        <h6>Cover</h6>
+                                        <h6><a href="">U.S</a></h6>
+                                        </div>  
+                                        <h5>'Gleefully Defiant' Trump Spoils for Fight, But Will His Playbook Fail Him?</h5>
                                     </div>
                                 </div>
                                 <div class="col-md">
-                                        <img src="./images/burn-rage.jpg" class="img-fluid" alt="Responsive image">
-                                    <div>
-                                        <p>Cover <a href="">U.S</a></p>
-                                        <h6>'Gleefully Defiant' Trump Spoils for Fight, But Will His Playbook Fail Him?</h6>
+                                        <img src="./images/burn-rage.jpg" class="img-fluid burn" alt="Responsive image">
+                                    <div class="in-caption">
+                                        <div>
+                                        <h6>Cover</h6>
+                                        <h6><a href="">U.S</a></h6>
+                                        </div>  
+                                        <h5>'Gleefully Defiant' Trump Spoils for Fight, But Will His Playbook Fail Him?</h5>
                                     </div>
                                 </div>
                                 <div class="col-md">
-                                        <img src="./images/burn-rage.jpg" class="img-fluid" alt="Responsive image">
-                                    <div>
-                                        <p>Cover <a href="">U.S</a></p>
-                                        <h6>'Gleefully Defiant' Trump Spoils for Fight, But Will His Playbook Fail Him?</h6>
+                                        <img src="./images/burn-rage.jpg" class="img-fluid burn" alt="Responsive image">
+                                    <div class="in-caption">
+                                        <div>
+                                        <h6>Cover</h6>
+                                        <h6><a href="">U.S</a></h6>
+                                        </div>  
+                                        <h5>'Gleefully Defiant' Trump Spoils for Fight, But Will His Playbook Fail Him?</h5>
                                     </div>
                                 </div>
                                 <div class="col-md">
-                                        <img src="./images/burn-rage.jpg" class="img-fluid" alt="Responsive image">
-                                    <div>
-                                        <p>Cover <a href="">U.S</a></p>
-                                        <h6>'Gleefully Defiant' Trump Spoils for Fight, But Will His Playbook Fail Him?</h6>
+                                        <img src="./images/burn-rage.jpg" class="img-fluid burn" alt="Responsive image">
+                                    <div class="in-caption">
+                                        <div>
+                                        <h6>Cover</h6>
+                                        <h6><a href="">U.S</a></h6>
+                                        </div>  
+                                        <h5>'Gleefully Defiant' Trump Spoils for Fight, But Will His Playbook Fail Him?</h5>
                                     </div>
                                 </div>
                             </div>
                 </div>
             </div>
 
-            <div class="editor">
+            <div class="editor wrapper">
                     <h4 class="text-center"><img src="./images/little-icon.png" alt=""> EDITOR'S PICKS</h4>
                 <div class="row">
                     <div class="col-md-3 editor-list card rounded-0">
@@ -433,7 +460,8 @@
                                 </div>
                 </div>
             </div>
-            <div class="slideshow">
+
+            <div class="slideshow wrapper">
                 <h4 class="text-center"><img src="./images/little-icon.png" alt="">FEATURED SLIDESHOWS</h4>
                     <div class="row">
                         <div class="col-md-4 slideshow card rounded-0">
@@ -491,7 +519,8 @@
                         </div>
                     </div>
             </div>
-            <div class="navi">
+
+            <div class="navi wrapper">
                 <h4><a href="">U.S</a></h4>
                 <div class="row">
                     <div class="col-md-4 card rounded-0">
@@ -536,7 +565,7 @@
                 </div>
             </div>
 
-            <div class="navi">
+            <div class="navi wrapper">
                     <h4><a href="">WORLD</a></h4>
                     <div class="row">
                         <div class="col-md-4 card rounded-0">
@@ -581,52 +610,52 @@
                     </div>
                 </div>
 
-                <div class="navi">
-                        <h4><a href="">BUSINESS</a></h4>
-                        <div class="row">
-                            <div class="col-md-4 card rounded-0">
-                                <img src="./images/muir-pass.jpg" class="rounded-0 card-img-top" alt="...">
-                                <div>
-                                    <h5><a href="">The Great Alone: Walking the Pacific Crest Trail</a></h5>
-                                </div>
+                <div class="navi wrapper">
+                    <h4><a href="">BUSINESS</a></h4>
+                    <div class="row">
+                        <div class="col-md-4 card rounded-0">
+                            <img src="./images/muir-pass.jpg" class="rounded-0 card-img-top" alt="...">
+                            <div>
+                                <h5><a href="">The Great Alone: Walking the Pacific Crest Trail</a></h5>
                             </div>
-        
-                            <div class="col-md-4 card rounded-0">
-                                <img src="./images/muir-pass.jpg" class="rounded-0 card-img-top" alt="...">
-                                <div>
-                                    <h5><a href="">The Great Alone: Walking the Pacific Crest Trail</a></h5>
-                                </div>
+                        </div>
+
+                        <div class="col-md-4 card rounded-0">
+                            <img src="./images/muir-pass.jpg" class="rounded-0 card-img-top" alt="...">
+                            <div>
+                                <h5><a href="">The Great Alone: Walking the Pacific Crest Trail</a></h5>
                             </div>
-        
-                            <div class="col-md-4 card rounded-0">
-                                    <div class="list">
-                                            <ul class="list-unstyled">
-                                                <li class="media">
-                                                    <img src="./images/oil-img.jpg" class="mr-3" alt="...">
-                                                    <div class="media-body">
-                                                    <h6 class="mt-0 mb-1"><a href="">Kansas Girl, 13, Arrested After Making Gun Symbol Out of Her Fingers</a></h6>
-                                                    </div>
-                                                </li>
-                                                <li class="media my-4">
-                                                        <img src="./images/oil-img.jpg" class="mr-3" alt="...">
-                                                        <div class="media-body">
-                                                        <h6 class="mt-0 mb-1"><a href="">Kansas Girl, 13, Arrested After Making Gun Symbol Out of Her Fingers</a></h6>
-                                                        </div>
-                                                </li>
-                                                <li class="media">
-                                                        <img src="./images/oil-img.jpg" class="mr-3" alt="...">
-                                                        <div class="media-body">
-                                                        <h6 class="mt-0 mb-1"><a href="">Kansas Girl, 13, Arrested After Making Gun Symbol Out of Her Fingers</a></h6>
-                                                        </div>
-                                                </li>
-                                                
-                                            </ul>
+                        </div>
+
+                        <div class="col-md-4 card rounded-0">
+                            <div class="list">
+                                <ul class="list-unstyled">
+                                    <li class="media">
+                                        <img src="./images/oil-img.jpg" class="mr-3" alt="...">
+                                        <div class="media-body">
+                                        <h6 class="mt-0 mb-1"><a href="">Kansas Girl, 13, Arrested After Making Gun Symbol Out of Her Fingers</a></h6>
                                         </div>
+                                    </li>
+                                    <li class="media my-4">
+                                            <img src="./images/oil-img.jpg" class="mr-3" alt="...">
+                                            <div class="media-body">
+                                            <h6 class="mt-0 mb-1"><a href="">Kansas Girl, 13, Arrested After Making Gun Symbol Out of Her Fingers</a></h6>
+                                            </div>
+                                    </li>
+                                    <li class="media">
+                                            <img src="./images/oil-img.jpg" class="mr-3" alt="...">
+                                            <div class="media-body">
+                                            <h6 class="mt-0 mb-1"><a href="">Kansas Girl, 13, Arrested After Making Gun Symbol Out of Her Fingers</a></h6>
+                                            </div>
+                                    </li>
+                                    
+                                </ul>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="navi">
+                    <div class="navi wrapper">
                         <h4><a href="">TECH AND SCIENCE</a></h4>
                         <div class="row">
                             <div class="col-md-4 card rounded-0">
@@ -671,7 +700,7 @@
                     </div>
                 </div>
 
-            <div class="subin">
+            <div class="subin wrapper">
                 <div class="row">
                     <div class="col-md-8">
                         <h4>SUBSCRIBE</h4>
@@ -699,20 +728,23 @@
                                   <div class="col-md-4">
                                     <img src="./images/checkout-digital.png" class="card-img rounded-0" alt="...">
                                   </div>
-                                  <div class="col-md-8">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Daily Briefing</h5>
-                                      <p class="card-text">Take back your inbox. Sign up for our newsletter and start making sense of the world around you</p>
-                                      <a href="#" class="btn btn-primary">Sign Up &#62;</a>
-                                    </div>
-                                  </div>
+                                <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Daily Briefing</h5>
+                                    <p class="card-text">Take back your inbox. Sign up for our newsletter and start making sense of the world around you</p>
+                                    <a href="#" class="btn btn-primary">Sign Up &#62;</a>
                                 </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </main>
-        <footer></footer>
+        <footer>
+            <!-- Footer -->
+
+        </footer>
     </div>
 
     <!-- Optional JavaScript -->
