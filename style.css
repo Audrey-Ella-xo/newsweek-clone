@@ -1,176 +1,201 @@
-header { display: none; }
-
-#navsmall { background: #f72210; }
-
-#navsmall img { height: 20px; }
-
-#navsmall > div:last-child > nav a:first-of-type { 
-    color: white; 
-    font-weight: 700;
+header {
+  display: none;
 }
 
-#navsmall > div:last-child > nav .btn {
-    color: #f72210;
-    background: white;
-    font-weight: 700;
+a {
+  color: black;
 }
-
-a { color: black; } 
 
 a:hover {
-    text-decoration: underline #f72210;
-    color:  black;
+  text-decoration: underline #f72210;
+  color: black;
 }
 
+.card,
 .btn {
-    border: none;
+  border: none;
 }
-
-.card { border: none; }
-
-h4 { font-size: 16px; }
-
-.culture h4 {
-    margin: 0 -15px;
-    background: lightgray;
-    padding-left: 15px;
-}
-
-.culture .card {
-    background: lightgray;
-    padding: 15px;
-}
-
-.culture .card h5, p { font-size: 14px; }
-
-.culture .card-img-top {
-    width: 100%;
-    height: 15vw;
-    object-fit: cover;
-} 
 
 .culture .btn {
-    background-color: #adacac;
-    color: rgb(24, 24, 24);
+  background-color: #adacac;
+  color: rgb(24, 24, 24);
 }
 
-.culture .btn:hover {
-    background-color: #2e2d2d;
-    color: rgb(231, 227, 227);
-}
-
-.opinion-list li { border-bottom: 1px solid lightgray; }
-
-.opinion-list li:last-of-type {
-    border-bottom: none;
+footer a:hover {
+  text-decoration: none;
 }
 
 .opinions a:hover {
-    text-decoration: none;
-    color: #f72210;
+  text-decoration: none;
+  color: #f72210;
 }
 
-.more-list img { width: 30%; }
+h4 {
+  font-size: 16px;
+}
 
-.latest-list img, .list img { width: 40%; }
+.culture h4 {
+  margin: 0 -15px;
+  background: lightgray;
+  padding-left: 15px;
+}
 
-.more-list li, .latest-list li {
-    margin-top: 10px;
-    padding-top: 10px;
-    border-top: 1px solid lightgray;
+.culture .card {
+  background: lightgray;
+  padding: 15px;
+}
+
+.culture .card h5,
+p {
+  font-size: 14px;
+}
+
+.culture .card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.opinion-list li {
+  border-bottom: 1px solid lightgray;
+}
+
+.more-list li,
+.latest-list li {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid lightgray;
+}
+
+footer > div:last-child li {
+  padding-left: 0;
+  padding-right: 0;
+  font-size: small;
+}
+
+.opinion-list li:last-of-type {
+  border-bottom: none;
+}
+
+.more-list img {
+  width: 30%;
+}
+
+.latest-list img,
+.list img {
+  width: 40%;
 }
 
 .in h4 {
-    border-bottom: 1px solid lightgray;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .in-caption > div {
-    margin-top: 20px;
-   width: 30%;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
+  margin-top: 20px;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer > div:last-child {
+  border-top: 1px solid lightgray;
+  margin-bottom: 30px;
 }
 
 .in-caption > div h6:first-of-type {
-    color: white;
-    background: #f72210;
-    padding: 5px;
+  color: white;
+  background: #f72210;
+  padding: 5px;
 }
 
-.in-caption > div h6:last-of-type a { color: #f72210; }
+.in-caption > div h6:last-of-type a {
+  color: #f72210;
+}
 
-.in > div:last-child { margin: 0 1px; }
+.in > div:last-child {
+  margin: 0 1px;
+}
 
-.nletter { padding: 30px; }
+.nletter {
+  padding: 30px;
+}
 
-.nletter .card { background-color: rgb(231, 225, 225); }
+.nletter .card {
+  background-color: rgb(231, 225, 225);
+}
 
 .nletter .btn {
-    color: white;
-    font-weight: 700;
-    background: rgb(107, 107, 107);
-}
-
-.nletter .btn:hover {
-    background: rgb(197, 196, 196);
-    color: white;
+  color: white;
+  font-weight: 700;
+  background: rgb(107, 107, 107);
 }
 
 .little {
-    background: rgba(255, 255, 255, 0.74);
-    padding: 0  10px;
-    bottom: 0;
-    left: 0;
-    line-height: 58px;
-    text-indent: 5px;
-    text-align: center;
-    color: #e9212e;
+  background: rgba(255, 255, 255, 0.74);
+  padding: 0 10px;
+  bottom: 0;
+  left: 0;
+  line-height: 58px;
+  text-indent: 5px;
+  text-align: center;
+  color: #e9212e;
 }
 
 .slideshow .little {
-    background: url(./images/icon-slideshows.png) 0 0/contain no-repeat;
-    width: 70px;
-    height: 52px;
+  background: url(./images/icon-slideshows.png) 0 0 / contain no-repeat;
+  width: 70px;
+  height: 52px;
 }
 
 .navi {
-    border-top: 1px solid rgb(216, 208, 208);
-    margin: 20px 0;
-    padding-top: 20px;
+  border-top: 1px solid rgb(216, 208, 208);
+  margin: 20px 0;
+  padding-top: 20px;
 }
 
-.subin .container, .subin .container .card {
-    background-color: lightgray;
+.subin .container,
+.subin .container .card {
+  background-color: lightgray;
 }
 
 .subin .container .card img {
-    margin: 20px;
-    padding-right: 40px;
+  margin: 20px;
+  padding-right: 40px;
 }
 
 .subin .container .card .card-body {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .subin > div > div:last-child .card {
-    border: 1px solid lightgray;
+  border: 1px solid lightgray;
 }
 
 .subin > div > div:last-child .igs {
-    border-right: 1px solid lightgray;
+  border-right: 1px solid lightgray;
 }
 
 .subin .btn {
-    background: #f72210;
-    font-weight: 700;
-    color: white;
+  background: #f72210;
+  font-weight: 700;
+  color: white;
 }
 
 .subin .btn:hover {
-    background-color: #666;
+  background-color: #666;
+}
+
+.culture .btn:hover {
+  background-color: #2e2d2d;
+  color: rgb(231, 227, 227);
+}
+
+.nletter .btn:hover {
+  background: rgb(197, 196, 196);
+  color: white;
 }
 
 footer {
@@ -179,99 +204,107 @@ footer {
   padding-top: 20px;
 }
 
-footer a:hover {
-    text-decoration: none;
+#navsmall {
+  background: #f72210;
 }
 
-footer > div:last-child {
-  border-top: 1px solid lightgray;
+#navsmall img {
+  height: 20px;
 }
 
-footer > div:last-child {
-    margin-bottom: 30px;
-  }
+#navsmall > div:last-child > nav a:first-of-type {
+  color: white;
+  font-weight: 700;
+}
 
-footer > div:last-child li {
-    padding-left: 0;
-    padding-right: 0;
-    font-size: small;
+#navsmall > div:last-child > nav .btn {
+  color: #f72210;
+  background: white;
+  font-weight: 700;
 }
 
 /* MEDIA QUERIES BEGIN */
 
-@media screen and (min-width: 768px){
-    .main {
-        position: relative;
-        height: 1600px;
-        overflow: hidden;
-    }
-    
-    article, aside {
-        position: absolute;
-    }
-    
-    .featured, article {
-        overflow-x: hidden;
-        overflow-y: scroll;
-        height: 1600px;
-    }
-    
-    .featured::-webkit-scrollbar, article::-webkit-scrollbar {
-        display: none;
-       }
+@media screen and (min-width: 768px) {
+  .main {
+    position: relative;
+    height: 1600px;
+    overflow: hidden;
+  }
+
+  article,
+  aside {
+    position: absolute;
+  }
+
+  .featured,
+  article {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 1600px;
+  }
+
+  .featured::-webkit-scrollbar,
+  article::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 992px) {
-    header {
+  header {
     background: #f72210;
-    }
+  }
 
-    header p, header a {
-        color: white;
-        font-weight: 700;
-    }
+  header p,
+  header a {
+    color: white;
+    font-weight: 700;
+  }
 
-    header .btn {
-        color: #f72210;
-        background: white;
-        font-weight: 700;
-    }
+  header .btn {
+    color: #f72210;
+    background: white;
+    font-weight: 700;
+  }
 
-    .nav-link {
-       font-weight: 700;
-       font-size: larger;
-       color: rgb(0, 0, 0);
-    }
+  .nav-link {
+    font-weight: 700;
+    font-size: larger;
+    color: rgb(0, 0, 0);
+  }
 
-    .nav-link:hover {
-        color: #f72210;
-    }
+  .nav-link:hover {
+    color: #f72210;
+  }
 
-    .main {
-        position: relative;
-        height: 1600px;
-        overflow: hidden;
-    }
-    
-    aside, article {
-        position: absolute;
-    }
-    
-    .featured, article {
-        overflow-x: hidden;
-        overflow-y: scroll;
-        height: 1600px;
-    }
-    
-    .featured::-webkit-scrollbar, article::-webkit-scrollbar {
-        display: none;
-       }
+  .main {
+    position: relative;
+    height: 1600px;
+    overflow: hidden;
+  }
 
-    .in .burn {
-        height: 270px;
-    }
+  aside,
+  article {
+    position: absolute;
+  }
 
-    .subin > div > div:last-child img {
-        height: 280px;
-    }
+  .featured,
+  article {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 1600px;
+  }
+
+  .featured::-webkit-scrollbar,
+  article::-webkit-scrollbar {
+    display: none;
+  }
+
+  .in .burn {
+    height: 270px;
+  }
+
+  .subin > div > div:last-child img {
+    height: 280px;
+  }
 }
