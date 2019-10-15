@@ -4,11 +4,15 @@ header { display: none; }
 
 #navsmall img { height: 20px; }
 
-#navsmall > div:last-child > nav a:first-of-type { color: white; }
+#navsmall > div:last-child > nav a:first-of-type { 
+    color: white; 
+    font-weight: 700;
+}
 
 #navsmall > div:last-child > nav .btn {
     color: #f72210;
     background: white;
+    font-weight: 700;
 }
 
 a { color: black; } 
@@ -47,7 +51,14 @@ h4 { font-size: 16px; }
     border-bottom: none;
 }
 
-.more-list img, .latest-list img, .list img { width: 40%; }
+.opinions a:hover {
+    text-decoration: none;
+    color: #f72210;
+}
+
+.more-list img { width: 30%; }
+
+.latest-list img, .list img { width: 40%; }
 
 .more-list li, .latest-list li {
     margin-top: 10px;
@@ -149,6 +160,28 @@ footer > div:last-child li {
 
 /* MEDIA QUERIES BEGIN */
 
+@media screen and (min-width: 768px){
+    .main {
+        position: relative;
+        height: 1600px;
+        overflow: hidden;
+    }
+    
+    article, aside {
+        position: absolute;
+    }
+    
+    .featured, article {
+        overflow-x: hidden;
+        overflow-y: scroll;
+        height: 1600px;
+    }
+    
+    .featured::-webkit-scrollbar, article::-webkit-scrollbar {
+        display: none;
+       }
+}
+
 @media screen and (min-width: 992px) {
     header {
     background: #f72210;
@@ -156,17 +189,44 @@ footer > div:last-child li {
 
     header p, header a {
         color: white;
+        font-weight: 700;
     }
 
     header .btn {
         color: #f72210;
         background: white;
+        font-weight: 700;
     }
 
     .nav-link {
        font-weight: 700;
+       font-size: larger;
        color: rgb(0, 0, 0);
     }
+
+    .nav-link:hover {
+        color: #f72210;
+    }
+
+    .main {
+        position: relative;
+        height: 1600px;
+        overflow: hidden;
+    }
+    
+    article, .featured {
+        position: absolute;
+    }
+    
+    .featured, article {
+        overflow-x: hidden;
+        overflow-y: scroll;
+        height: 1600px;
+    }
+    
+    .featured::-webkit-scrollbar, article::-webkit-scrollbar {
+        display: none;
+       }
 
     .in .burn {
         height: 270px;
