@@ -1,23 +1,26 @@
-header {
-    background: #f72210;
+header { display: none; }
+
+#navsmall { background: #f72210; }
+
+#navsmall img { height: 20px; }
+
+#navsmall > div:last-child > nav a:first-of-type { color: white; }
+
+#navsmall > div:last-child > nav .btn {
+    color: #f72210;
+    background: white;
 }
 
-a {
-    color: black;
-} 
+a { color: black; } 
 
 a:hover {
     text-decoration: underline #f72210;
     color:  black;
 }
 
-.card {
-    border: none;
-}
+.card { border: none; }
 
-h4 {
-    font-size: 16px;;
-}
+h4 { font-size: 16px; }
 
 .culture h4 {
     margin: 0 -15px;
@@ -30,9 +33,7 @@ h4 {
     padding: 15px;
 }
 
-.culture .card h5, p {
-    font-size: 14px;
-}
+.culture .card h5, p { font-size: 14px; }
 
 .culture .card-img-top {
     width: 100%;
@@ -40,17 +41,13 @@ h4 {
     object-fit: cover;
 } 
 
-.opinion-list li {
-    border-bottom: 1px solid lightgray;
-}
+.opinion-list li { border-bottom: 1px solid lightgray; }
 
 .opinion-list li:last-of-type {
     border-bottom: none;
 }
 
-.more-list img, .latest-list img, .list img {
-    width: 40%;
-}
+.more-list img, .latest-list img, .list img { width: 40%; }
 
 .more-list li, .latest-list li {
     margin-top: 10px;
@@ -62,10 +59,6 @@ h4 {
     border-bottom: 1px solid lightgray;
     padding-bottom: 10px;
     margin-bottom: 20px;
-}
-
-.in .burn {
-    height: 270px;
 }
 
 .in-caption > div {
@@ -82,21 +75,13 @@ h4 {
     padding: 5px;
 }
 
-.in-caption > div h6:last-of-type a {
-    color: #f72210;
-}
+.in-caption > div h6:last-of-type a { color: #f72210; }
 
-.in > div:last-child {
-    margin: 0 1px;
-}
+.in > div:last-child { margin: 0 1px; }
 
-.nletter {
-    padding: 30px;
-}
+.nletter { padding: 30px; }
 
-.nletter .card {
-    background-color: rgb(231, 225, 225);
-}
+.nletter .card { background-color: rgb(231, 225, 225); }
 
 .little {
     background: rgba(255, 255, 255, 0.74);
@@ -160,4 +145,30 @@ footer > div:last-child li {
     padding-left: 0;
     padding-right: 0;
     font-size: small;
+}
+
+/* MEDIA QUERIES BEGIN */
+
+@media screen and (min-width: 992px) {
+    header {
+    background: #f72210;
+    }
+
+    header p, header a {
+        color: white;
+    }
+
+    header .btn {
+        color: #f72210;
+        background: white;
+    }
+
+    .nav-link {
+       font-weight: 700;
+       color: rgb(0, 0, 0);
+    }
+
+    .in .burn {
+        height: 270px;
+    }
 }

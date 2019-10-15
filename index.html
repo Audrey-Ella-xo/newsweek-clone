@@ -14,26 +14,23 @@
   </head>
   <body>
     <div class="container-fluid">
-        <header class="blog-header py-3 sticky-top">
-            <div class="header row flex-nowrap justify-content-between align-items-center">
+        <header class="blog-header py-3 d-none d-lg-block">
+            <div class="header px-3 row flex-nowrap justify-content-between align-items-center">
                 <div class="col-4 pt-1">
-                <p class="text-muted" href="#">Wed, Oct 09, 2019</p>
+                <p href="#">Wed, Oct 09, 2019</p>
                 </div>
                 <div class="mx-auto d-block">
                 <a href="#"><img src="./images/logo-lrg.jpg" class="img-fluid" alt="logo"></a>
                 </div>
                 <div class="col-4 d-flex justify-content-end align-items-center">
-                <a class="text-muted" href="#">Sign in</a>
-                <a class="btn btn-sm btn-outline-secondary" href="#">Subscribe &#62; </a>
+                <a class="px-3" href="#">SIGN IN</a>
+                <a class="btn px-3 btn-sm btn-outline-secondary" href="#">SUBSCRIBE &#62; </a>
                 </div>
             </div>   
         </header>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navitemscollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
+        <nav class="navbar navbar-expand-lg  bg-light d-none d-lg-block">
+            
             <div class="collapse navbar-collapse justify-content-end" id="navitemscollapse">
                 <div class="navbar-nav mr-auto w-100 justify-content-between">
                         <a class="p-2 nav-item nav-link" href="#">U.S.</a>
@@ -63,6 +60,20 @@
             </div>
         </nav>
 
+        <div id="navsmall" class="navbar  sticky-top d-lg-none flex-sm row">
+                <div class="col align-items-center">
+                <a class="navbar-brand" href="#"><img src="./images/logo-lrg.jpg" class="img-fluid" alt="logo"></a>
+                </div>
+                <div class="col">
+                    <nav class="nav align-items-center justify-content-end">
+                            <a class="px-3" href="#">SIGN IN</a>
+                            <a class="btn btn-sm btn-outline-secondary px-3" href="#">SUBSCRIBE</a>
+                            <a href=""><i class="fa fa-bars fa-2x px-3 text-muted"></i></a>
+                            
+                    </nav>
+                </div>
+            </div>
+            
         <main>
             <div class="main row wrapper">
                 <aside class="featured container col-md-6 col-lg-3">
@@ -371,7 +382,7 @@
             <div class="editor wrapper">
                     <h4 class="text-center"><img src="./images/little-icon.png" alt=""> EDITOR'S PICKS</h4>
                 <div class="row">
-                    <div class="col-md-3 editor-list card rounded-0">
+                    <div class="col-md-6 col-lg-3 editor-list card rounded-0">
                         <div class="position-relative">
                             <img src="./images/milky-way.png" class="rounded-0 card-img-top" alt="...">
                             <a href="" class="position-absolute little" alt="">News</a>
@@ -393,7 +404,7 @@
                             </div>
                     </div>
 
-                    <div class="col-md-3 editor-list card rounded-0">
+                    <div class="col-md-6 col-lg-3 editor-list card rounded-0">
                             <div class="position-relative">
                                 <img src="./images/milky-way.png" class="rounded-0 card-img-top" alt="...">
                                 <a href="" class="position-absolute little" alt="">News</a>
@@ -415,7 +426,7 @@
                                 </div>
                         </div>
 
-                        <div class="col-md-3 editor-list card rounded-0">
+                        <div class="col-md-6 col-lg-3 editor-list card rounded-0">
                                 <div class="position-relative">
                                     <img src="./images/milky-way.png" class="rounded-0 card-img-top" alt="...">
                                     <a href="" class="position-absolute little" alt="">News</a>
@@ -437,7 +448,7 @@
                                     </div>
                             </div>
 
-                            <div class="col-md-3 editor-list card rounded-0">
+                            <div class="col-md-6 col-lg-3 editor-list card rounded-0">
                                     <div class="position-relative">
                                         <img src="./images/milky-way.png" class="rounded-0 card-img-top" alt="...">
                                         <a href="" class="position-absolute little" alt="">News</a>
