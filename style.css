@@ -22,6 +22,10 @@ a:hover {
     color:  black;
 }
 
+.btn {
+    border: none;
+}
+
 .card { border: none; }
 
 h4 { font-size: 16px; }
@@ -44,6 +48,16 @@ h4 { font-size: 16px; }
     height: 15vw;
     object-fit: cover;
 } 
+
+.culture .btn {
+    background-color: #adacac;
+    color: rgb(24, 24, 24);
+}
+
+.culture .btn:hover {
+    background-color: #2e2d2d;
+    color: rgb(231, 227, 227);
+}
 
 .opinion-list li { border-bottom: 1px solid lightgray; }
 
@@ -94,6 +108,17 @@ h4 { font-size: 16px; }
 
 .nletter .card { background-color: rgb(231, 225, 225); }
 
+.nletter .btn {
+    color: white;
+    font-weight: 700;
+    background: rgb(107, 107, 107);
+}
+
+.nletter .btn:hover {
+    background: rgb(197, 196, 196);
+    color: white;
+}
+
 .little {
     background: rgba(255, 255, 255, 0.74);
     padding: 0  10px;
@@ -132,6 +157,20 @@ h4 { font-size: 16px; }
 
 .subin > div > div:last-child .card {
     border: 1px solid lightgray;
+}
+
+.subin > div > div:last-child .igs {
+    border-right: 1px solid lightgray;
+}
+
+.subin .btn {
+    background: #f72210;
+    font-weight: 700;
+    color: white;
+}
+
+.subin .btn:hover {
+    background-color: #666;
 }
 
 footer {
@@ -214,7 +253,7 @@ footer > div:last-child li {
         overflow: hidden;
     }
     
-    article, .featured {
+    aside, article {
         position: absolute;
     }
     
@@ -230,5 +269,9 @@ footer > div:last-child li {
 
     .in .burn {
         height: 270px;
+    }
+
+    .subin > div > div:last-child img {
+        height: 280px;
     }
 }
