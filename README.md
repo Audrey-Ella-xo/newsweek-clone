@@ -18,4 +18,5 @@ This project is a clone of  the newsweek's home page. This project was done in o
 ![Screenshot](https://i.imgur.com/8AAj6Z1.jpg)
 
 #### Contributor:
- * [Odiaka Emmanuella Anita](https://github.com/Audrey-Ella-xo)
+ * Odiaka Emmanuella Anita
+ [Github](https://github.com/Audrey-Ella-xo).[Linkedin](https://www.linkedin.com/in/emmanuella-anita-odiaka/).[portfolio](https://audrey-ella.herokuapp.com/)
